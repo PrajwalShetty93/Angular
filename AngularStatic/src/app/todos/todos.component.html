@@ -1,0 +1,15 @@
+<h1>User Details</h1>
+<div class="container">
+<table class="table">
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr *ngFor='let person of persons'>
+    <td>{{person.company}}</td>
+    <td>{{person.contact}}</td>
+    <td>{{person.country}}</td>
+  </tr>
+</table>
+</div>
