@@ -15,3 +15,8 @@ I have created 2 separate applications.
 TODO.
 1) User registration.
 2) Security using JWT Token.
+
+## SCREENSHOTS
+
+## 1) Login Page.
+
