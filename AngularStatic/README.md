@@ -1,4 +1,4 @@
-# Simple Angular Web Application 
+# User Details Web Application 
 
 Web application using Spring Boot and Angular.
 
