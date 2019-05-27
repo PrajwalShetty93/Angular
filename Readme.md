@@ -19,4 +19,13 @@ TODO.
 ## SCREENSHOTS
 
 ## 1) Login Page.
+![](https://github.com/PrajwalShetty93/Angular/blob/master/images/Login.png)
 
+## 2) Welcome Page
+![](https://github.com/PrajwalShetty93/Angular/blob/master/images/welcome.png)
+
+## 3) Details Page
+![](https://github.com/PrajwalShetty93/Angular/blob/master/images/Details.png)
+
+## 4) Update Details Page
+![](https://github.com/PrajwalShetty93/Angular/blob/master/images/Update.png)
