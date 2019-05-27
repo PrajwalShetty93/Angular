@@ -1,4 +1,4 @@
-package com.prajwal.org.restwebservice;
+package org.prajwal.restwebservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

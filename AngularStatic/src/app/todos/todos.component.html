@@ -2,14 +2,23 @@
 <div class="container">
 <table class="table">
   <tr>
+       <th>Id</th>
     <th>Company</th>
     <th>Contact</th>
     <th>Country</th>
+    <th>Action</th>
   </tr>
-  <tr *ngFor='let person of persons'>
-    <td>{{person.company}}</td>
-    <td>{{person.contact}}</td>
-    <td>{{person.country}}</td>
+  <tr *ngFor='let detail of details'>
+    <td>{{detail.compId}}</td>
+    <td>{{detail.name}}</td>
+    <td>{{detail.contact}}</td>
+    <td>{{detail.address}}</td>
+    <td><button (click)="updateDetail(detail.compId)" class="btn btn-success">Update</button></td>
+    <td><button (click)="deleteDetail(detail.compId)" class="btn btn-warning">Delete</button></td>
   </tr>
 </table>
+
+<div class="row">
+<button (click)="addDetail()" class="btn btn-success">Add</button>
+</div>
 </div>

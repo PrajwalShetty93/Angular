@@ -6,6 +6,7 @@ import {WelcomeComponent} from './welcome/welcome.component';
 import {ErrorComponent} from './error/error.component';
 import {TodosComponent} from './todos/todos.component';
 import {LogoutComponent} from './logout/logout.component';
+import { UpdateComponent } from './update/update.component';
 
 const routes: Routes = [
 	{path:'', component:LoginComponent},
@@ -13,6 +14,7 @@ const routes: Routes = [
 	{path:'welcome/:name', component:WelcomeComponent},
     {path: 'todos',component:TodosComponent},
     {path: 'logout',component:LogoutComponent},
+    {path: 'update/:compId',component:UpdateComponent},
 	{path:'**', component:ErrorComponent}
 ]
 

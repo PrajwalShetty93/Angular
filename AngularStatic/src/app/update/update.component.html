@@ -1,0 +1,19 @@
+<h1>Update</h1>
+<div class="container">
+    <form  (ngSubmit)='!detailsForm.invalid && updateDetails()'   #detailsForm="ngForm">
+    <fieldset>
+        <label>Company</label>
+        <input type="text" class="form-control" name="company" [(ngModel)]="detail.name" required="required">
+    </fieldset>
+    <fieldset>
+        <label>Contact</label>
+        <input type="text" class="form-control" name="contact" [(ngModel)]="detail.contact" required="required">
+    </fieldset>
+    <fieldset>
+        <label>Address</label>
+        <input type="text" class="form-control" name="address" [(ngModel)]="detail.address" required="required">
+    </fieldset>
+    
+   <button type="submit" class="btn btn-success">Update</button>
+</form>
+</div>

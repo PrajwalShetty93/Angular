@@ -13,7 +13,7 @@ export class AuthenticationService {
     {
        // console.log(this.isUserLoggedIn());
         sessionStorage.setItem("AuthenticatedUser",userName);
-        console.log(this.isUserLoggedIn());
+        //console.log(this.isUserLoggedIn());
         return true;
     }
     return false;
@@ -22,7 +22,6 @@ export class AuthenticationService {
   isUserLoggedIn()
   {
       let user= sessionStorage.getItem("AuthenticatedUser");
-      console.log(user);
         return !(user===null);
   }
 
